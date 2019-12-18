@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -31,7 +31,7 @@ projects:
 social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: gregory.zuckerman
   hackerrank: gregoryzuckerman
   instagram: gregory.zuckerman
   # keybase: your_username
@@ -58,3 +58,7 @@ topics:
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+  
+  - name: Linux
+    web_url: https://github.com/topics/linux
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
