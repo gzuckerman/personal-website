@@ -29,18 +29,17 @@ projects:
     # - repo-name
 
 social_media:
-  # behance: your_username
-  # dribbble: your_username
+  twitter: g_zuckerman
   facebook: gregory.zuckerman
-  hackerrank: gregoryzuckerman
   instagram: gregory.zuckerman
+  hackerrank: gregoryzuckerman
+  stackoverflow: gregory-zuckerman
+  medium: gregoryzuckerman
   # keybase: your_username
   # linkedin: your_username
   # mastodon: your_username
-  # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  twitter: g_zuckerman
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
@@ -59,6 +58,14 @@ topics:
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
   
-  - name: Linux
-    web_url: https://github.com/topics/linux
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
+  - name: Amazon Web Services
+    web_url: https://github.com/topics/aws
+    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
+    
+  - name: Docker
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/docker/docker.png
+    
+  - name: Kubernetes
+    web_url: https://github.com/topics/kubernetes
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png
