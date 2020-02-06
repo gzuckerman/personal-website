@@ -46,9 +46,9 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: Java
-    web_url: https://github.com/topics/java
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
+  - name: C#
+    web_url: https://github.com/topics/csharp
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/csharp/csharp.png
 
   - name: .NET
     web_url: https://github.com/topics/dotnet
