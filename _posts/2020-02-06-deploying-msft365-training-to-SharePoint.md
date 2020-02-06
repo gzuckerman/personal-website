@@ -1,5 +1,5 @@
 ---
-title: "Deploying Microsofy 365 taining to SharePoint"
+title: "Deploying Microsofy 365 Training to SharePoint"
 published: true
 ---
 
