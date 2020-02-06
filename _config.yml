@@ -50,9 +50,9 @@ topics:
     web_url: https://github.com/topics/java
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
 
-  - name: Kotlin
-    web_url: https://github.com/topics/kotlin
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/kotlin/kotlin.png
+  - name: .NET
+    web_url: https://github.com/topics/dotnet
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/dotnet/dotnet.png
 
   - name: Python
     web_url: https://github.com/topics/python
@@ -60,7 +60,7 @@ topics:
   
   - name: Microsoft Azure
     web_url: https://github.com/topics/azure
-    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/azure/azure.png
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png
     
   - name: Docker
     web_url: https://github.com/topics/docker
