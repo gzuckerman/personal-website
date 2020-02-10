@@ -4,10 +4,9 @@
 @import 'highlight-syntax';
 
 p, h1, h2, h3, h4 {
-@font-face {
   font-family: Segoe UI;
   font-style: normal;
-  src: url(/assets/SegoeUI-Roman-VF-subset_web.woff2) format('woff2');
+  src: url(https://github.com/gzuckerman/personal-website/blob/master/assets/styles.scss) format('woff2');
   font-weight: 100 900;
   font-display: swap;
 }
