@@ -8,6 +8,9 @@ In this post I'm going to cover how to run Ansible playbooks on your workstation
 For the below example we'll create a sample playbook that checks for system updates. 
 
 Sample:
+
+![alt text](https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg "Ansible sample")
+
 ```yaml
 ---
 #Test playbook for blog post
