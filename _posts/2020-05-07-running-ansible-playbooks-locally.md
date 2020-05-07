@@ -26,15 +26,15 @@ To then run this in your terminal you will run the following command:
 ```console
 [gzuckerman@optiplex ~]$ sudo ansible-playbook sample-playbook.yml
 
-PLAY [Check for update via dnf] **********************************************************************************************************
+PLAY [Check for update via dnf] *****************************************************************
 
-TASK [Gathering Facts] *******************************************************************************************************************
+TASK [Gathering Facts] **************************************************************************
 ok: [localhost]
 
-TASK [DNF check for update] **************************************************************************************************************
+TASK [DNF check for update] *********************************************************************
 changed: [localhost]
 
-TASK [debug] *****************************************************************************************************************************
+TASK [debug] ************************************************************************************
 ok: [localhost] => {
     "output.stdout_lines": [
         "Updating Subscription Management repositories.",
@@ -50,8 +50,8 @@ ok: [localhost] => {
     ]
 }
 
-PLAY RECAP *******************************************************************************************************************************
-localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+PLAY RECAP **************************************************************************************
+localhost : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
 [gzuckerman@optiplex ~]$
 
