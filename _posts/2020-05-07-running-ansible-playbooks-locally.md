@@ -13,4 +13,4 @@ Sample:
 
 To then run this in your terminal you will run the following command:
 
-<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" align="centre" alt="Terminal Window" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/terminal-example.svg" align="centre" alt="Terminal Window" width="80%" height="80%"/>
