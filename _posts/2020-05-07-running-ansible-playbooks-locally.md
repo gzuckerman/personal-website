@@ -9,42 +9,8 @@ For the below example we'll create a sample playbook that checks for system upda
 
 Sample:
 
-<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" alt="drawing" width="80%" height="80%"/>
+<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" align="centre" alt="Ansible Sample" width="80%" height="80%"/>
 
 To then run this in your terminal you will run the following command:
 
-![alt text](https://github.com/gzuckerman/personal-website/blob/master/imgs/terminal-example.svg "Ansible sample")
-
-```console
-[gzuckerman@optiplex ~]$ sudo ansible-playbook sample-playbook.yml
-
-PLAY [Check for update via dnf] *****************************************************************
-
-TASK [Gathering Facts] **************************************************************************
-ok: [localhost]
-
-TASK [DNF check for update] *********************************************************************
-changed: [localhost]
-
-TASK [debug] ************************************************************************************
-ok: [localhost] => {
-    "output.stdout_lines": [
-        "Updating Subscription Management repositories.",
-        "Last metadata expiration check: 0:41:55 ago on Thu 07 May 2020 09:21:10 BST.",
-        "Dependencies resolved.",
-        "Nothing to do.",
-        "Complete!",
-        "Updating Subscription Management repositories.",
-        "Last metadata expiration check: 0:41:58 ago on Thu 07 May 2020 09:21:10 BST.",
-        "Dependencies resolved.",
-        "Nothing to do.",
-        "Complete!"
-    ]
-}
-
-PLAY RECAP **************************************************************************************
-localhost : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
-
-[gzuckerman@optiplex ~]$
-
-```
+<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" align="centre" alt="Terminal Window" width="80%" height="80%"/>
