@@ -9,6 +9,8 @@ For the below example we'll create a sample playbook that checks for system upda
 
 Sample:
 
+<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" alt="drawing" width="80%" height="80%"/>
+
 ![alt text](https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg "Ansible sample")
 
 ```yaml
