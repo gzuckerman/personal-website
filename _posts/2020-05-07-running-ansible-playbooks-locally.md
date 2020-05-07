@@ -11,22 +11,9 @@ Sample:
 
 <img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg" alt="drawing" width="80%" height="80%"/>
 
-![alt text](https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/playbook-example.svg "Ansible sample")
-
-```yaml
----
-#Test playbook for blog post
-- name: Check for update via dnf
-  hosts: "localhost"
-  tasks:
-  
-  - name: "DNF check for update"
-    shell: "dnf -y upgrade && dnf -y update"
-    register: "output"
-    
-  - debug: var=output.stdout_lines
-```
 To then run this in your terminal you will run the following command:
+
+![alt text](https://github.com/gzuckerman/personal-website/blob/master/imgs/terminal-example.svg "Ansible sample")
 
 ```console
 [gzuckerman@optiplex ~]$ sudo ansible-playbook sample-playbook.yml
