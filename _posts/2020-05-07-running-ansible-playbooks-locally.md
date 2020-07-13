@@ -15,8 +15,8 @@ Sample:
   hosts: "localhost"
   tasks:
   
-  - name: "SNF check for update"
-    shell: "sudo dnf -y update && sudo dnf -y upgrade
+  - name: "DNF check for update"
+    shell: "sudo dnf -y upgrade && sudo dnf -y update
     register: "output"
     
   - debug: var=output.stdout_lines
