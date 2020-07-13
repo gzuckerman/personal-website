@@ -18,6 +18,7 @@
     {% if total_shareable_services > 0 %}
       <div class="col-sm-4 col-lg-3 d-flex flex-wrap flex-items-center d-sm-block float-sm-right border rounded-2 bg-white p-3 mb-5 ml-md-5">
         <h3 class="text-gray-dark mr-3 mr-sm-0">Share</h3>
+        <div class="teams-share-button" data-href="{{ service.share_url_prefix }}{{ page.url | prepend: site.url | prepend: site.baseurl | url_encode }}"></div>
         <ul class="d-flex d-sm-block list-style-none">
           {% for service in shareable_social_media %}
             <li class="mt-sm-3">
@@ -28,7 +29,6 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="teams-share-button" data-href="https://<link-to-be-shared>"></div>
     {% endif %}
   {% endif %}
   <div class="article">
