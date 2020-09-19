@@ -1,6 +1,8 @@
 layout: stacked
 style: light
 
+# style options: light / dark
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
