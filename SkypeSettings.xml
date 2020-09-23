@@ -3,9 +3,9 @@
 		<ThemeName>Custom</ThemeName>
         <CustomThemeImageUrl>CustomBackgroundTheme.png</CustomThemeImageUrl>
         <CustomThemeColor>
-		<RedComponent>249</RedComponent>
-        	<GreenComponent>148</GreenComponent>
-		<BlueComponent>59</BlueComponent>
+		<RedComponent>92</RedComponent>
+        	<GreenComponent>0</GreenComponent>
+		<BlueComponent>92</BlueComponent>
         </CustomThemeColor>
 	</Theming>
 </SkypeSettings>
