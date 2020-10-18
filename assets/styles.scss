@@ -3,20 +3,6 @@
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
 
-h1 {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
-  font-size: 4em;
-  text-align: center;
-  margin-bottom: 0;
-  margin-bottom: -0.25em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
-  width: 605px;
-}
-
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
