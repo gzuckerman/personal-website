@@ -1,13 +1,13 @@
 ---
-title: "Kör Ansible-spelböcker lokalt"
+title: "Run Ansible playbooks locally"
 published: true
 ---
 
-I det här inlägget ska jag täcka hur man kör Ansible-spelböcker på din arbetsstation. Detta är praktiskt för att utföra ett antal uppgifter på en lokal arbetsstation.
+In this post, I'm going to cover how to run Ansible playbooks on your workstation. This is useful for performing a number of tasks on a local workstation.
 
-För exemplet nedan skapar vi ett exempel på en spelbok som söker efter systemuppdateringar.
+For the example below, we create an example of a playbook that searches for system updates.
 
-Prov:
+Sample:
 
 ``` yaml
 # Test playbook for blog post
@@ -22,6 +22,10 @@ Prov:
   - debug: var=output.stdout_lines
 ```
 
-För att sedan köra detta i din terminal kommer du att köra följande kommando:
+To then run this in your terminal, you will run the following command:
 
-<img src="https://raw.githubusercontent.com/gzuckerman/personal-website/master/imgs/terminal-example.svg" align="centre" alt="Terminal Window" width="80%" height="80%"/>
+``` shell
+
+$ sudo ansible-playbook sample-playbook.yml
+
+```
