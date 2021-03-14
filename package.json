@@ -1,0 +1,12 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "flagpack-core": {
+      "integrity": "sha512-xKNFPkF+sKFY+pP7fsHD8KkuHKl5ZUX8eY2Vzt7lNv9m0ndtchzLx+gdZrJd/3QZfTyi9U40y9WVYAEBy0w++g==",
+      "resolved": "https://registry.npmjs.org/flagpack-core/-/flagpack-core-1.0.0.tgz",
+      "version": "1.0.0"
+    },
+    "react-flagpack": "^0.1.1"
+  }
+}
