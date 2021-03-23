@@ -31,21 +31,20 @@ projects:
     # - repo-name
 
 social_media:
+  hackerrank: gregoryzuckerman
   twitter: gregzuck
+  stackoverflow: gregoryzuckerman
   #facebook: gregory.zuckerman
   #instagram: gregory.zuckerman
-  hackerrank: gregoryzuckerman
-  stackoverflow: gregory-zuckerman
-  # medium: gregoryzuckerman
+  medium: gregoryzuckerman
   # keybase: your_username
   # linkedin: your_username
   # mastodon: your_username
-  stackoverflow: gregoryzuckerman
   # telegram: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  youtube: thegsadventurer
+  # youtube: thegsadventurer
 
 topics:
   - name: ReactJS
